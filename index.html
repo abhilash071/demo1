@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Page</title>
+  <style>
+    /* CSS for styling the heading */
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-top: 50px;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+    }
+
+    /* Styling the link */
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #3498db;
+      font-size: 18px;
+    }
+
+    a:hover {
+      color: #1abc9c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Heading -->
+  <h1 id="mainHeading">Welcome to My Page</h1>
+
+  <!-- Link to another website -->
+  <a href="https://www.example.com" target="_blank">Go to Example.com</a>
+
+  <script>
+    // JavaScript: Alert when heading is clicked
+    document.getElementById("mainHeading").addEventListener("click", function() {
+      alert("You clicked the heading!");
+    });
+  </script>
+
+</body>
+</html>
